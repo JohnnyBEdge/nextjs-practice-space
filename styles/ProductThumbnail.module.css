@@ -1,0 +1,5 @@
+.thumbnailContainer{
+    width: 1fr;
+    height: 1fr;
+    border: solid black 1px;
+}

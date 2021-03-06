@@ -27,7 +27,6 @@ export const getStaticPaths = async () => {
         //have not been genewrated at build time will not result in a 404 error
         fallback: true
     }
-
 };
 export const getStaticProps = async ({params}) => {
     let data = await client.getEntries({

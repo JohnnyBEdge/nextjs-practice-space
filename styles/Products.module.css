@@ -1,0 +1,7 @@
+.productsContainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 85%;
+    height: 90%;
+    border: solid 2px black;
+}
